@@ -1,0 +1,14 @@
+youtube_trending:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: admin
+      pass: admin123
+      dbname: postgres
+      schema: analytics
+
+  target: dev

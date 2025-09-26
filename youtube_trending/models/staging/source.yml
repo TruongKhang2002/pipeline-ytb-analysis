@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: trending_us_raw
+      - name: trending_ca_raw
+      - name: trending_gb_raw
+      - name: trending_de_raw
+      - name: trending_fr_raw
+      - name: trending_in_raw
+      - name: trending_jp_raw
+      - name: trending_kr_raw
+      - name: trending_mx_raw
+      - name: trending_ru_raw

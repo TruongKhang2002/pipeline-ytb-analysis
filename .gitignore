@@ -1,0 +1,31 @@
+# Loại venv
+venv/
+env
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Loại Dagster home & logs
+dagster_home/
+logs/
+kaggle/
+=4.0,
+=4.0.0
+
+# Loại database và file socket
+mysql/
+postgresql/
+minio/
+
+# Các file hệ thống/macOS/Windows
+.DS_Store
+Thumbs.db
+
+# Các file log
+*.log
+
+# VSCode (nếu dùng)
+.vscode/
+
+# Power BI cache (nếu có)
+*.pbix
