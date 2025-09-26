@@ -1,4 +1,4 @@
-# etl_pipeline
+# ELT Pipeline
 
 This is a [Dagster](https://dagster.io/) project scaffolded with [`dagster project scaffold`](https://docs.dagster.io/guides/build/projects/creating-a-new-project).
 
@@ -45,3 +45,17 @@ Once your Dagster Daemon is running, you can start turning on schedules and sens
 The easiest way to deploy your Dagster project is to use Dagster+.
 
 Check out the [Dagster+ documentation](https://docs.dagster.io/dagster-plus/) to learn more.
+
+## Dashboard
+
+### Page 1: Overview
+
+![Page 1](dashboard/images/Page1.png)
+
+### Page 2: Category Analysis
+
+![Page 2](dashboard/images/Page2.png)
+
+### Page 3: Country Analysis
+
+![Page 3](dashboard/images/Page3.png)
